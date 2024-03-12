@@ -1,0 +1,4 @@
+a = 'string'
+b = 'another string'
+print (a + '\n' + b) # Вывод результата на двух разных строках
+
