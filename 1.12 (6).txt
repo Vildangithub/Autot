@@ -1,0 +1,13 @@
+# put your python code here
+n = int(input())
+a = str("программист")
+z = str("а")
+x = str("ов")
+if 0 == n % 10 or 5 == n % 10 or 6 == n % 10 or 7 == n % 10 or 8 == n % 10 or 9 == n % 10:
+    print(n, a + x)
+elif 11 == n % 100 or 12 == n % 100 or 13 == n % 100 or 14 == n % 100:
+    print(n, a + x)
+elif 2 == n % 10 or 3 == n % 10 or 4 == n % 10:
+    print(n, a + z)
+elif 1 == n % 10:
+    print(n, a)
